@@ -1,9 +1,9 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "functions": {
-    "app/main.py": {
+    "server.py": {
       "maxDuration": 60,
-      "excludeFiles": "{server.py,calorix.db,**/__pycache__/**,**/*.pyc}"
+      "excludeFiles": "{calorix.db,**/__pycache__/**,**/*.pyc}"
     }
   }
 }
