@@ -1,0 +1,11 @@
+{
+  "name": "calorix",
+  "version": "1.0.0",
+  "description": "CaloriX - AI-Powered Nutrition & Food Recommendation App",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000"
+  },
+  "author": "Team DEPI",
+  "license": "MIT"
+}
